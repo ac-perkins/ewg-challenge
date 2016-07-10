@@ -1,0 +1,176 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+main {
+  width: 92%;
+  margin: 0 auto;
+}
+
+section {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.2em;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #A9D3D6;
+  margin: 5px 0;
+}
+
+h4 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+}
+
+.logo {
+  position: absolute;
+  width: 80px;
+  float: left;
+}
+
+.intro {
+  background-color: #4289B5;
+  margin-top: 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 1%;
+}
+
+.intro a {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.3em;
+}
+
+.find-better {
+  background-color: #97C9D2;
+  width: 33.33%;
+  height: 400px;
+  float: left;
+  border-bottom-left-radius: 5px;
+}
+
+.find-better h2 {
+  color: #387698;
+  margin-top: 10%;
+}
+
+.avoid {
+  background-color: #E4A669;
+  text-align: left;
+  width: 33.33%;
+  height: 400px;
+  float: left;
+}
+
+.avoid h2 {
+  color: #B45F35;
+  /*margin-bottom: 5px;*/
+}
+
+.avoid h4 {
+  margin: 15px 0 3px 0;
+}
+
+.skip {
+  background-color: #B45F35;
+  width: 33.33%;
+  height: 400px;
+  float: left;
+  border-bottom-right-radius: 5px;
+}
+
+.skip h2 {
+  color: #F4C490;
+}
+
+.skip h2:last-of-type {
+  color: #652C21;
+}
+
+.skip p {
+  margin-bottom: 15px;
+}
