@@ -58,6 +58,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 main {
   width: 92%;
   margin: 0 auto;
+  max-width: 1280px;
 }
 
 section {
@@ -75,6 +76,7 @@ h1 {
 h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 2.2em;
+  font-weight: 700;
 }
 
 h3 {
@@ -97,6 +99,7 @@ p {
 }
 
 a {
+  font-family: 'Roboto Slab', serif;
   text-decoration: none;
   color: #fff;
 }
@@ -106,10 +109,17 @@ li {
   color: #fff;
 }
 
+span {
+  font-weight: 700;
+}
+
+i {
+  margin-right: 10px;
+}
+
 .logo {
   position: absolute;
   width: 80px;
-  float: left;
 }
 
 .intro {
@@ -122,33 +132,37 @@ li {
 
 .intro a {
   font-family: 'Amatic SC', cursive;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .find-better {
   background-color: #97C9D2;
-  width: 33.33%;
-  height: 400px;
+  width: 33.3333%;
+  height: 410px;
   float: left;
   border-bottom-left-radius: 5px;
 }
 
 .find-better h2 {
   color: #387698;
-  margin-top: 10%;
+  margin-top: 8%;
+}
+
+.supplies {
+  width: 120px;
+  margin-top: 8%;
 }
 
 .avoid {
   background-color: #E4A669;
   text-align: left;
-  width: 33.33%;
-  height: 400px;
+  width: 33.3333%;
+  height: 410px;
   float: left;
 }
 
 .avoid h2 {
   color: #B45F35;
-  /*margin-bottom: 5px;*/
 }
 
 .avoid h4 {
@@ -157,14 +171,15 @@ li {
 
 .skip {
   background-color: #B45F35;
-  width: 33.33%;
-  height: 400px;
+  width: 33.3333%;
+  height: 410px;
   float: left;
   border-bottom-right-radius: 5px;
 }
 
 .skip h2 {
   color: #F4C490;
+  margin-bottom: 1%;
 }
 
 .skip h2:last-of-type {
@@ -173,4 +188,84 @@ li {
 
 .skip p {
   margin-bottom: 15px;
+}
+
+.skip ul {
+  display: block;
+  text-align: left;
+  width: 66%;
+  margin: 0 auto;
+  font-size: 0.9em;
+}
+
+.skip li {
+  margin-bottom: 2%;
+}
+
+.skip .fa-facebook {
+  margin-left: 4px;
+  margin-right: 15px;
+}
+
+.skip .fa-twitter {
+  margin-left: 2px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  main {
+    width: 96%;
+  }
+
+  .find-better {
+    height: 550px;
+  }
+
+  .avoid {
+    height: 550px;
+  }
+
+  .skip {
+    height: 550px;
+  }
+
+  .skip ul {
+    width: 84%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .find-better {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 0;
+  }
+
+  .supplies {
+    margin-top: 5%;
+  }
+
+  .find-better h2 {
+    margin-top: 5%;
+  }
+
+  .avoid {
+    width: 100%;
+    height: auto;
+  }
+
+  .skip {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 2%;
+  }
+
+  .skip ul {
+    width: 66%;
+  }
+
+  .logo {
+    margin-top: 1%;
+    position: relative;
+  }
 }
