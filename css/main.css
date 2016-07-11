@@ -96,6 +96,7 @@ h4 {
 p {
   font-family: 'Roboto Slab', serif;
   color: #fff;
+  line-height: 1.2;
 }
 
 a {
@@ -107,6 +108,7 @@ a {
 li {
   font-family: 'Roboto Slab', serif;
   color: #fff;
+  line-height: 1.2;
 }
 
 span {
@@ -120,6 +122,7 @@ i {
 .logo {
   position: absolute;
   width: 80px;
+  float: left;
 }
 
 .intro {
@@ -135,10 +138,14 @@ i {
   font-size: 1.5em;
 }
 
+.intro > a:first-child {
+  float: left;
+}
+
 .find-better {
   background-color: #97C9D2;
   width: 33.3333%;
-  height: 410px;
+  height: 430px;
   float: left;
   border-bottom-left-radius: 5px;
 }
@@ -157,7 +164,7 @@ i {
   background-color: #E4A669;
   text-align: left;
   width: 33.3333%;
-  height: 410px;
+  height: 430px;
   float: left;
 }
 
@@ -172,7 +179,7 @@ i {
 .skip {
   background-color: #B45F35;
   width: 33.3333%;
-  height: 410px;
+  height: 430px;
   float: left;
   border-bottom-right-radius: 5px;
 }
@@ -200,6 +207,7 @@ i {
 
 .skip li {
   margin-bottom: 2%;
+  line-height: 1;
 }
 
 .skip .fa-facebook {
@@ -217,15 +225,15 @@ i {
   }
 
   .find-better {
-    height: 550px;
+    height: 600px;
   }
 
   .avoid {
-    height: 550px;
+    height: 600px;
   }
 
   .skip {
-    height: 550px;
+    height: 600px;
   }
 
   .skip ul {
@@ -234,6 +242,10 @@ i {
 }
 
 @media screen and (max-width: 768px) {
+  .intro > a:first-child {
+    float: none;
+  }
+
   .find-better {
     width: 100%;
     height: auto;
@@ -267,5 +279,6 @@ i {
   .logo {
     margin-top: 1%;
     position: relative;
+    float: none;
   }
 }
