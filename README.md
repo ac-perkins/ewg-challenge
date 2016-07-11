@@ -1,1 +1,1 @@
-# ewg-challenge
+# Code challenge for EWG
